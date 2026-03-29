@@ -1,0 +1,11 @@
+project_name: 727823TUCY001_network_port_scanner
+
+stages:
+  - setup:
+      script: setup_lab.py
+
+  - run:
+      script: run_tool.py
+
+  - analyze:
+      script: analyze_results.py
